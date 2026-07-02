@@ -10,7 +10,7 @@ using Publicis_Sapient.Interface;
 
 namespace Publicis_Sapient.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class MedicineController : Controller
     {
         private readonly IMedicineService _medicineService;

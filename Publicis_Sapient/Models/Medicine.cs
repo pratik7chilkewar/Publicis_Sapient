@@ -5,6 +5,7 @@ namespace Publicis_Sapient.Models
 {
 	public class Medicine
 	{
+        [Key]
 		public int MedicineId { get; set; }
         [Required]
         [MaxLength(100)]
